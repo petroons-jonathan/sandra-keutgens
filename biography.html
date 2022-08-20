@@ -76,11 +76,11 @@
 
                 <!-- Vertical Tab hidden in mobile -->
                 <div class="md:w-3/4 md:mx-auto hidden md:flex">
-                <div class="flex items-start">
-                    <ul class="nav nav-tabs flex flex-col flex-wrap list-none border-b-0 pl-0 md:mr-4 lg:mr-10"
-                        id="tabs-tabVertical" role="tablist">
-                        <li class="nav-item flex-grow text-center" role="presentation">
-                            <a href="#tabs-EducationVertical" class="
+                    <div class="flex items-start">
+                        <ul class="nav nav-tabs flex flex-col flex-wrap list-none border-b-0 pl-0 md:mr-4 lg:mr-10"
+                            id="tabs-tabVertical" role="tablist">
+                            <li class="nav-item flex-grow text-center" role="presentation">
+                                <a href="#tabs-aboutVertical" class="
                             nav-link
                             block
                             font-medium
@@ -93,13 +93,31 @@
                             my-2
                             hover:border-transparent hover:bg-gray-100
                             focus:border-transparent
+                            rounded
                             active
+                          " id="tabs-home-tabVertical" data-bs-toggle="pill" data-bs-target="#tabs-aboutVertical"
+                                    role="tab" aria-controls="tabs-aboutVertical" aria-selected="true">ABOUT</a>
+                            </li>
+                            <li class="nav-item flex-grow text-center" role="presentation">
+                                <a href="#tabs-EducationVertical" class="
+                            nav-link
+                            block
+                            font-medium
+                            text-xs
+                            leading-tight
+                            uppercase
+                            border-x-0 border-t-0 border-b-2 border-transparent
+                            px-6
+                            py-3
+                            my-2
+                            hover:border-transparent hover:bg-gray-100
+                            focus:border-transparent
                             rounded
                           " id="tabs-home-tabVertical" data-bs-toggle="pill" data-bs-target="#tabs-EducationVertical"
-                                role="tab" aria-controls="tabs-EducationVertical" aria-selected="true">EDUCATION</a>
-                        </li>
-                        <li class="nav-item flex-grow text-center" role="presentation">
-                            <a href="#tabs-exhibitionVertical" class="
+                                    role="tab" aria-controls="tabs-EducationVertical" aria-selected="true">EDUCATION</a>
+                            </li>
+                            <li class="nav-item flex-grow text-center" role="presentation">
+                                <a href="#tabs-exhibitionVertical" class="
                             nav-link
                             block
                             font-medium
@@ -115,12 +133,12 @@
                             rounded
                             text-gray-500
                           " id="tabs-profile-tabVertical" data-bs-toggle="pill"
-                                data-bs-target="#tabs-exhibitionVertical" role="tab"
-                                aria-controls="tabs-exhibitionVertical" aria-selected="false">EXHIBITIONS
-                                <span class="lowercase">(selection)</span></a>
-                        </li>
-                        <li class="nav-item flex-grow text-center" role="presentation">
-                            <a href="#tabs-collectionsVertical" class="
+                                    data-bs-target="#tabs-exhibitionVertical" role="tab"
+                                    aria-controls="tabs-exhibitionVertical" aria-selected="false">EXHIBITIONS
+                                    <span class="lowercase">(selection)</span></a>
+                            </li>
+                            <li class="nav-item flex-grow text-center" role="presentation">
+                                <a href="#tabs-collectionsVertical" class="
                             nav-link
                             block
                             font-medium
@@ -135,11 +153,11 @@
                             focus:border-transparent
                             rounded
                           " id="tabs-messages-tabVertical" data-bs-toggle="pill"
-                                data-bs-target="#tabs-collectionsVertical" role="tab"
-                                aria-controls="tabs-collectionsVertical" aria-selected="false">COLLECTIONS</a>
-                        </li>
-                        <li class="nav-item flex-grow text-center" role="presentation">
-                            <a href="#tabs-privateCollectionsVertical" class="
+                                    data-bs-target="#tabs-collectionsVertical" role="tab"
+                                    aria-controls="tabs-collectionsVertical" aria-selected="false">COLLECTIONS</a>
+                            </li>
+                            <li class="nav-item flex-grow text-center" role="presentation">
+                                <a href="#tabs-privateCollectionsVertical" class="
                             nav-link
                             block
                             font-medium
@@ -154,140 +172,217 @@
                             focus:border-transparent
                             rounded
                           " id="tabs-messages-tabVertical" data-bs-toggle="pill"
-                                data-bs-target="#tabs-privateCollectionsVertical" role="tab"
-                                aria-controls="tabs-privateCollectionsVertical" aria-selected="false">PRIVATE
-                                COLLECTIONS</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content" id="tabs-tabContentVertical">
-                        <div class="tab-pane fade show active" id="tabs-EducationVertical" role="tabpanel"
-                            aria-labelledby="tabs-home-tabVertical">
-                            <div class="flex-grow pl-3">
-                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:w-16">1994 - 1990</p>
-                                    <p class="leading-relaxed md:w-full md:text-left md:w-64"><span class="font-bold">Academy of Fine Arts</span></br><i>Brussels -
-                                        B</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1  text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:w-16">1990 - 1989</p>
-                                    <p class="leading-relaxed md:w-full md:text-left md:w-64"><span class="font-bold">Saint Luc Art School</span></br><i>Brussels -
-                                        B</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:w-16">1989</p>
-                                    <p class="leading-relaxed md:w-full md:text-left md:w-64"><span class="font-bold">A level in Arts</span></br><i>Eupen - B</i></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="tabs-exhibitionVertical" role="tabpanel"
-                            aria-labelledby="tabs-profile-tabVertical">
-                            <div class="flex-grow pl-3">
-                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:w-16">2022</p>
-                                    <p class="leading-relaxed md:w-full md:text-left md:w-64"><span class="font-bold">We Art XL</span></br><i>Brussels - B</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:w-16">2020</p>
-                                    <p class="leading-relaxed md:w-full md:text-left md:w-64"><span class="font-bold">We Art XL</span></br><i>Brussels - B</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:w-16">2019</p>
-                                    <p class="leading-relaxed md:w-full md:text-left md:w-64"><span class="font-bold">Steigenberger Wiltchers</span></br><i>Brussels - B</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:w-16">2015</p>
-                                    <p class="leading-relaxed md:w-full md:text-left md:w-64"><span class="font-bold">Gallery Arielle d'Hauterives</span></br><i>Brussels - B</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:w-16">2014</p>
-                                    <p class="leading-relaxed md:w-full md:text-left md:w-64"><span class="font-bold">Chantiers Art House</span></br><i>Brussels - B</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:w-16">2010</p>
-                                    <p class="leading-relaxed md:w-full md:text-left md:w-64"><span class="font-bold">Gallery Otero</span></br><i>Saint Paul de Vence - F</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:w-16">2008</p>
-                                    <p class="leading-relaxed md:w-full md:text-left md:w-64"><span class="font-bold">Palace of fine arts</span></br><i>Brussels - B</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:w-16">2006</p>
-                                    <p class="leading-relaxed md:w-full md:text-left md:w-64"><span class="font-bold">KunstTour - Stichting ART2Connect</span></br><i>Maastricht - NL</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:w-16">2005</p>
-                                    <p class="leading-relaxed md:w-full md:text-left md:w-64"><span class="font-bold">START</span></br><i>Straßburg - F</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:w-16">2004</p>
-                                    <p class="leading-relaxed md:w-full md:text-left md:w-64"><span class="font-bold">Gallery Chiefs & Spirits</span></br><i>Den Haag - NL</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:w-16">2004</p>
-                                    <p class="leading-relaxed md:w-full md:text-left md:w-64"><span class="font-bold">LINEART</span></br><i>Gent - B</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:w-16">2002</p>
-                                    <p class="leading-relaxed md:w-full md:text-left md:w-64"><span class="font-bold">Museum of Contemporary Art Ludwig Forum</span></br><i>Aachen - D</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:w-16">2002</p>
-                                    <p class="leading-relaxed md:w-full md:text-left md:w-64"><span class="font-bold">Gallery Prince de Condé</span></br><i>Spa - B</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:w-16">2000</p>
-                                    <p class="leading-relaxed md:w-full md:text-left md:w-64"><span class="font-bold">Center for Contemporary Art of Belgian</span></br><i>Luxembourg - L</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:w-16">1999</p>
-                                    <p class="leading-relaxed md:w-full md:text-left md:w-64"><span class="font-bold">IKOB</span></br><i>Eupen - B</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:w-16">1999</p>
-                                    <p class="leading-relaxed md:w-full md:text-left md:w-64"><span class="font-bold">Gallery Accento</span></br><i>Brussels - B</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:w-16">1994</p>
-                                    <p class="leading-relaxed md:w-full md:text-left md:w-64"><span class="font-bold">Gallery Helga Maria Theissen</span></br><i>Aachen - D</i></p>
+                                    data-bs-target="#tabs-privateCollectionsVertical" role="tab"
+                                    aria-controls="tabs-privateCollectionsVertical" aria-selected="false">PRIVATE
+                                    COLLECTIONS</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="tabs-tabContentVertical">
+                            <div class="tab-pane fade show active" id="tabs-aboutVertical" role="tabpanel"
+                                aria-labelledby="tabs-home-tabVertical">
+                                <div class="flex-grow pl-3">
+                                    <div
+                                        class="flex flex-col mb-2 space-x-1 text-sm  leading-relaxed w-96 text-justify">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores veniam
+                                            qui dolores consectetur consequuntur enim. Optio quas facilis tenetur, amet
+                                            sed dolores asperiores quasi voluptatem et iure id odio unde?</p></br>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aspernatur
+                                            aperiam architecto suscipit minima consequuntur neque reprehenderit cumque?
+                                            Inventore, maxime?
+                                        </p></br>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, ipsam
+                                            rem voluptates aut dolore asperiores beatae necessitatibus, dolorem illum
+                                            pariatur, autem et ratione quo adipisci excepturi sit! Suscipit, unde sequi.
+                                        </p></br>
+                                        <p><i>Lorem Ipsum, Historien d'art</i></p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="tab-pane fade" id="tabs-collectionsVertical" role="tabpanel"
-                            aria-labelledby="tabs-profile-tabVertical">
-                            <div class="flex-grow pl-3">
-                                <div class="flex flex-row mb-2 space-x-1 md:space-x-10 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:text-left"><span class="font-bold">Collection Benoot Gallery</span><i></br>Belgium - B</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1 md:space-x-10 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:text-left"><span class="font-bold">Collection John Cluysenaar</span><i></br>Belgium - B</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1 md:space-x-10 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:text-left"><span class="font-bold">Collection German speaking Community</span><i></br>Belgium - B</i></p>
-                                </div>
-                                <div class="flex flex-row mb-2 space-x-1 md:space-x-10 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:text-left"><span class="font-bold">Private Collections Aachen and Düsseldorf</span><i></br>Deutscheland - D</i></p>
+                            <div class="tab-pane fade show" id="tabs-EducationVertical" role="tabpanel"
+                                aria-labelledby="tabs-home-tabVertical">
+                                <div class="flex-grow pl-3">
+                                    <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:w-16">1994 - 1990</p>
+                                        <p class="leading-relaxed md:w-full md:text-left md:w-64"><span
+                                                class="font-bold">Academy of Fine Arts</span></br><i>Brussels -
+                                                B</i></p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1  text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:w-16">1990 - 1989</p>
+                                        <p class="leading-relaxed md:w-full md:text-left md:w-64"><span
+                                                class="font-bold">Saint Luc Art School</span></br><i>Brussels -
+                                                B</i></p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:w-16">1989</p>
+                                        <p class="leading-relaxed md:w-full md:text-left md:w-64"><span
+                                                class="font-bold">A level in Arts</span></br><i>Eupen - B</i></p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="tab-pane fade" id="tabs-privateCollectionsVertical" role="tabpanel"
-                            aria-labelledby="tabs-profile-tabVertical">
-                            <div class="flex-grow pl-3">
-                                <div class="flex flex-row mb-2 space-x-1 md:space-x-10 text-sm text-left">
-                                    <p class="leading-relaxed md:w-full md:text-left"><span class="font-bold">Private Collections</span><i></br>Brussels and Gent - B</i></p>
+                            <div class="tab-pane fade" id="tabs-exhibitionVertical" role="tabpanel"
+                                aria-labelledby="tabs-profile-tabVertical">
+                                <div class="flex-grow pl-3">
+                                    <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:w-16">2022</p>
+                                        <p class="leading-relaxed md:w-full md:text-left md:w-64"><span
+                                                class="font-bold">We Art XL</span></br><i>Brussels - B</i></p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:w-16">2020</p>
+                                        <p class="leading-relaxed md:w-full md:text-left md:w-64"><span
+                                                class="font-bold">We Art XL</span></br><i>Brussels - B</i></p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:w-16">2019</p>
+                                        <p class="leading-relaxed md:w-full md:text-left md:w-64"><span
+                                                class="font-bold">Steigenberger Wiltchers</span></br><i>Brussels - B</i>
+                                        </p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:w-16">2015</p>
+                                        <p class="leading-relaxed md:w-full md:text-left md:w-64"><span
+                                                class="font-bold">Gallery Arielle d'Hauterives</span></br><i>Brussels -
+                                                B</i></p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:w-16">2014</p>
+                                        <p class="leading-relaxed md:w-full md:text-left md:w-64"><span
+                                                class="font-bold">Chantiers Art House</span></br><i>Brussels - B</i></p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:w-16">2010</p>
+                                        <p class="leading-relaxed md:w-full md:text-left md:w-64"><span
+                                                class="font-bold">Gallery Otero</span></br><i>Saint Paul de Vence -
+                                                F</i></p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:w-16">2008</p>
+                                        <p class="leading-relaxed md:w-full md:text-left md:w-64"><span
+                                                class="font-bold">Palace of fine arts</span></br><i>Brussels - B</i></p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:w-16">2006</p>
+                                        <p class="leading-relaxed md:w-full md:text-left md:w-64"><span
+                                                class="font-bold">KunstTour - Stichting
+                                                ART2Connect</span></br><i>Maastricht - NL</i></p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:w-16">2005</p>
+                                        <p class="leading-relaxed md:w-full md:text-left md:w-64"><span
+                                                class="font-bold">START</span></br><i>Straßburg - F</i></p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:w-16">2004</p>
+                                        <p class="leading-relaxed md:w-full md:text-left md:w-64"><span
+                                                class="font-bold">Gallery Chiefs & Spirits</span></br><i>Den Haag -
+                                                NL</i></p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:w-16">2004</p>
+                                        <p class="leading-relaxed md:w-full md:text-left md:w-64"><span
+                                                class="font-bold">LINEART</span></br><i>Gent - B</i></p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:w-16">2002</p>
+                                        <p class="leading-relaxed md:w-full md:text-left md:w-64"><span
+                                                class="font-bold">Museum of Contemporary Art Ludwig
+                                                Forum</span></br><i>Aachen - D</i></p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:w-16">2002</p>
+                                        <p class="leading-relaxed md:w-full md:text-left md:w-64"><span
+                                                class="font-bold">Gallery Prince de Condé</span></br><i>Spa - B</i></p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:w-16">2000</p>
+                                        <p class="leading-relaxed md:w-full md:text-left md:w-64"><span
+                                                class="font-bold">Center for Contemporary Art of
+                                                Belgian</span></br><i>Luxembourg - L</i></p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:w-16">1999</p>
+                                        <p class="leading-relaxed md:w-full md:text-left md:w-64"><span
+                                                class="font-bold">IKOB</span></br><i>Eupen - B</i></p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:w-16">1999</p>
+                                        <p class="leading-relaxed md:w-full md:text-left md:w-64"><span
+                                                class="font-bold">Gallery Accento</span></br><i>Brussels - B</i></p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:w-16">1994</p>
+                                        <p class="leading-relaxed md:w-full md:text-left md:w-64"><span
+                                                class="font-bold">Gallery Helga Maria Theissen</span></br><i>Aachen -
+                                                D</i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tabs-collectionsVertical" role="tabpanel"
+                                aria-labelledby="tabs-profile-tabVertical">
+                                <div class="flex-grow pl-3">
+                                    <div class="flex flex-row mb-2 space-x-1 md:space-x-10 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:text-left"><span
+                                                class="font-bold">Collection Benoot Gallery</span><i></br>Belgium -
+                                                B</i></p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1 md:space-x-10 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:text-left"><span
+                                                class="font-bold">Collection John Cluysenaar</span><i></br>Belgium -
+                                                B</i></p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1 md:space-x-10 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:text-left"><span
+                                                class="font-bold">Collection German speaking
+                                                Community</span><i></br>Belgium - B</i></p>
+                                    </div>
+                                    <div class="flex flex-row mb-2 space-x-1 md:space-x-10 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:text-left"><span
+                                                class="font-bold">Private Collections Aachen and
+                                                Düsseldorf</span><i></br>Deutscheland - D</i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tabs-privateCollectionsVertical" role="tabpanel"
+                                aria-labelledby="tabs-profile-tabVertical">
+                                <div class="flex-grow pl-3">
+                                    <div class="flex flex-row mb-2 space-x-1 md:space-x-10 text-sm text-left">
+                                        <p class="leading-relaxed md:w-full md:text-left"><span
+                                                class="font-bold">Private Collections</span><i></br>Brussels and Gent -
+                                                B</i></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
 
-            <!-- Horizontal Tab hidden in desktop -->
-            <div class="w-full mx-auto md:hidden">
-                <ul class="nav nav-tabs flex flex-col md:flex-row flex-wrap list-none border-b-0 pl-0 mb-4" id="tabs-tabFill"
-  role="tablist">
-  <li class="nav-item flex-auto text-center" role="presentation">
-    <a href="#tabs-educationFill" class="
+                <!-- Horizontal Tab hidden in desktop -->
+                <div class="w-full mx-auto md:hidden">
+                    <ul class="nav nav-tabs flex flex-col md:flex-row flex-wrap list-none border-b-0 pl-0 mb-4"
+                        id="tabs-tabFill" role="tablist">
+                        <li class="nav-item flex-grow text-center" role="presentation">
+                            <a href="#tabs-aboutFill" class="
+                        nav-link
+                        block
+                        font-medium
+                        text-xs
+                        leading-tight
+                        uppercase
+                        border-x-0 border-t-0 border-b-2 border-transparent
+                        px-6
+                        py-3
+                        my-2
+                        hover:border-transparent hover:bg-gray-100
+                        focus:border-transparent
+                        rounded
+                        active
+                      " id="tabs-home-tabVertical" data-bs-toggle="pill" data-bs-target="#tabs-aboutFill"
+                                role="tab" aria-controls="tabs-aboutFill" aria-selected="true">ABOUT</a>
+                        </li>
+                        <li class="nav-item flex-auto text-center" role="presentation">
+                            <a href="#tabs-educationFill" class="
       nav-link
       w-full
       block
@@ -301,13 +396,12 @@
       my-2
       hover:border-transparent hover:bg-gray-100
       focus:border-transparent
-      active
       rounded
     " id="tabs-home-tabFill" data-bs-toggle="pill" data-bs-target="#tabs-educationFill" role="tab"
-      aria-controls="tabs-educationFill" aria-selected="true">EDUCATION</a>
-  </li>
-  <li class="nav-item flex-auto text-center" role="presentation">
-    <a href="#tabs-exhibitionsFill" class="
+                                aria-controls="tabs-educationFill" aria-selected="true">EDUCATION</a>
+                        </li>
+                        <li class="nav-item flex-auto text-center" role="presentation">
+                            <a href="#tabs-exhibitionsFill" class="
       nav-link
       w-full
       block
@@ -323,11 +417,11 @@
       focus:border-transparent
       rounded
     " id="tabs-profile-tabFill" data-bs-toggle="pill" data-bs-target="#tabs-exhibitionsFill" role="tab"
-      aria-controls="tabs-exhibitionsFill" aria-selected="false">EXHIBITIONS
-      <span class="lowercase">(selection)</span></a>
-  </li>
-  <li class="nav-item flex-auto text-center" role="presentation">
-    <a href="#tabs-messagesFill" class="
+                                aria-controls="tabs-exhibitionsFill" aria-selected="false">EXHIBITIONS
+                                <span class="lowercase">(selection)</span></a>
+                        </li>
+                        <li class="nav-item flex-auto text-center" role="presentation">
+                            <a href="#tabs-messagesFill" class="
       nav-link
       w-full
       block
@@ -343,10 +437,10 @@
       focus:border-transparent
       rounded
     " id="tabs-messages-tabFill" data-bs-toggle="pill" data-bs-target="#tabs-messagesFill" role="tab"
-      aria-controls="tabs-messagesFill" aria-selected="false">COLLECTIONS</a>
-  </li>
-  <li class="nav-item flex-auto text-center" role="presentation">
-    <a href="#tabs-privateCollectionsFill" class="
+                                aria-controls="tabs-messagesFill" aria-selected="false">COLLECTIONS</a>
+                        </li>
+                        <li class="nav-item flex-auto text-center" role="presentation">
+                            <a href="#tabs-privateCollectionsFill" class="
       nav-link
       w-full
       block
@@ -362,126 +456,188 @@
       focus:border-transparent
       rounded
     " id="tabs-messages-tabFill" data-bs-toggle="pill" data-bs-target="#tabs-privateCollectionsFill" role="tab"
-      aria-controls="tabs-privateCollectionsFill" aria-selected="false">PRIVATE COLLECTIONS</a>
-  </li>
-</ul>
-<div class="tab-content" id="tabs-tabContentFill">
-  <div class="tab-pane fade show active" id="tabs-educationFill" role="tabpanel" aria-labelledby="tabs-home-tabFill">
-    <div class="flex flex-col pl-3">
-        <div class="flex flex-row  mb-2 space-x-1 text-sm text-left">
-            <p class="leading-relaxed w-1/4">1994 - 1990</p>
-            <p class="leading-relaxed text-left w-3/4"><span class="font-bold">Academy of Fine Arts</span></br><i>Brussels -
-                B</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1  text-sm text-left">
-            <p class="leading-relaxed w-1/4">1990 - 1989</p>
-            <p class="leading-relaxed text-left w-3/4"><span class="font-bold">Saint Luc Art School</span></br><i>Brussels -
-                B</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-            <p class="leading-relaxed w-1/4">1989</p>
-            <p class="leading-relaxed text-left w-3/4"><span class="font-bold">A level in Arts</span></br><i>Eupen - B</i></p>
-        </div>
-    </div>
-  </div>
-  <div class="tab-pane fade" id="tabs-exhibitionsFill" role="tabpanel" aria-labelledby="tabs-profile-tabFill">
-    <div class="flex flex-col pl-3">
-        <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-            <p class="leading-relaxed md:w-full w-1/4">2022</p>
-            <p class="leading-relaxed md:w-full md:text-left w-3/4"><span class="font-bold">We Art XL</span></br><i>Brussels - B</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-            <p class="leading-relaxed md:w-full w-1/4">2020</p>
-            <p class="leading-relaxed md:w-full md:text-left w-3/4"><span class="font-bold">We Art XL</span></br><i>Brussels - B</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-            <p class="leading-relaxed md:w-full w-1/4">2019</p>
-            <p class="leading-relaxed md:w-full md:text-left w-3/4"><span class="font-bold">Steigenberger Wiltchers</span></br><i>Brussels - B</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-            <p class="leading-relaxed md:w-full w-1/4">2015</p>
-            <p class="leading-relaxed md:w-full md:text-left w-3/4"><span class="font-bold">Gallery Arielle d'Hauterives</span></br><i>Brussels - B</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-            <p class="leading-relaxed md:w-full w-1/4">2014</p>
-            <p class="leading-relaxed md:w-full md:text-left w-3/4"><span class="font-bold">Chantiers Art House</span></br><i>Brussels - B</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-            <p class="leading-relaxed md:w-full w-1/4">2010</p>
-            <p class="leading-relaxed md:w-full md:text-left w-3/4"><span class="font-bold">Gallery Otero</span></br><i>Saint Paul de Vence - F</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-            <p class="leading-relaxed md:w-full w-1/4">2008</p>
-            <p class="leading-relaxed md:w-full md:text-left w-3/4"><span class="font-bold">Palace of fine arts</span></br><i>Brussels - B</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-            <p class="leading-relaxed md:w-full w-1/4">2006</p>
-            <p class="leading-relaxed md:w-full md:text-left w-3/4"><span class="font-bold">KunstTour - Stichting ART2Connect</span></br><i>Maastricht - NL</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-            <p class="leading-relaxed md:w-full w-1/4">2005</p>
-            <p class="leading-relaxed md:w-full md:text-left w-3/4"><span class="font-bold">START</span></br><i>Straßburg - F</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-            <p class="leading-relaxed md:w-full w-1/4">2004</p>
-            <p class="leading-relaxed md:w-full md:text-left w-3/4"><span class="font-bold">Gallery Chiefs & Spirits</span></br><i>Den Haag - NL</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-            <p class="leading-relaxed md:w-full w-1/4">2004</p>
-            <p class="leading-relaxed md:w-full md:text-left w-3/4"><span class="font-bold">LINEART</span></br><i>Gent - B</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-            <p class="leading-relaxed md:w-full w-1/4">2002</p>
-            <p class="leading-relaxed md:w-full md:text-left w-3/4"><span class="font-bold">Museum of Contemporary Art Ludwig Forum</span></br><i>Aachen - D</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-            <p class="leading-relaxed md:w-full w-1/4">2002</p>
-            <p class="leading-relaxed md:w-full md:text-left w-3/4"><span class="font-bold">Gallery Prince de Condé</span></br><i>Spa - B</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-            <p class="leading-relaxed md:w-full w-1/4">2000</p>
-            <p class="leading-relaxed md:w-full md:text-left w-3/4"><span class="font-bold">Center for Contemporary Art of Belgian</span></br><i>Luxembourg - L</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-            <p class="leading-relaxed md:w-full w-1/4">1999</p>
-            <p class="leading-relaxed md:w-full md:text-left w-3/4"><span class="font-bold">IKOB</span></br><i>Eupen - B</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-            <p class="leading-relaxed md:w-full w-1/4">1999</p>
-            <p class="leading-relaxed md:w-full md:text-left w-3/4"><span class="font-bold">Gallery Accento</span></br><i>Brussels - B</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
-            <p class="leading-relaxed md:w-full w-1/4">1994</p>
-            <p class="leading-relaxed md:w-full md:text-left w-3/4"><span class="font-bold">Gallery Helga Maria Theissen</span></br><i>Aachen - D</i></p>
-        </div>
-    </div>
-  </div>
-  <div class="tab-pane fade" id="tabs-messagesFill" role="tabpanel" aria-labelledby="tabs-profile-tabFill">
-    <div class="flex flex-col pl-3">
-        <div class="flex flex-row mb-2 space-x-1 md:space-x-10 text-sm text-left">
-            <p class="leading-relaxed md:w-full md:text-left ml-5"><span class="font-bold">Collection Benoot Gallery</span><i></br>Belgium - B</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1 md:space-x-10 text-sm text-left">
-            <p class="leading-relaxed md:w-full md:text-left ml-5"><span class="font-bold">Collection John Cluysenaar</span><i></br>Belgium - B</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1 md:space-x-10 text-sm text-left">
-            <p class="leading-relaxed md:w-full md:text-left ml-5"><span class="font-bold">Collection German speaking Community</span><i></br>Belgium - B</i></p>
-        </div>
-        <div class="flex flex-row mb-2 space-x-1 md:space-x-10 text-sm text-left">
-            <p class="leading-relaxed md:w-full md:text-left ml-5"><span class="font-bold">Private Collections Aachen and Düsseldorf</span><i></br>Deutscheland - D</i></p>
-        </div>
-    </div>
-  </div>
-  <div class="tab-pane fade" id="tabs-privateCollectionsFill" role="tabpanel" aria-labelledby="tabs-profile-tabFill">
-    <div class="flex flex-col pl-3">
-        <div class="flex flex-row mb-2 space-x-1 md:space-x-10 text-sm text-left">
-            <p class="leading-relaxed md:w-full md:text-left ml-5"><span class="font-bold">Private Collections</span><i></br>Brussels and Gent - B</i></p>
-        </div>
-    </div>
-  </div>
+                                aria-controls="tabs-privateCollectionsFill" aria-selected="false">PRIVATE
+                                COLLECTIONS</a>
+                        </li>
+                    </ul>
 
-</div>
-            </div>
+                    <div class="tab-content" id="tabs-tabContentFill">
+                        <div class="tab-pane fade show active" id="tabs-aboutFill" role="tabpanel"
+                            aria-labelledby="tabs-home-tabVertical">
+                            <div class="flex-grow pl-3">
+                                <div class="flex flex-col mb-2 space-x-1 text-sm  leading-relaxed w-80 text-justify">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores veniam
+                                        qui dolores consectetur consequuntur enim. Optio quas facilis tenetur, amet
+                                        sed dolores asperiores quasi voluptatem et iure id odio unde?</p></br>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aspernatur
+                                        aperiam architecto suscipit minima consequuntur neque reprehenderit cumque?
+                                        Inventore, maxime?
+                                    </p></br>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, ipsam
+                                        rem voluptates aut dolore asperiores beatae necessitatibus, dolorem illum
+                                        pariatur, autem et ratione quo adipisci excepturi sit! Suscipit, unde sequi.
+                                    </p></br>
+                                    <p><i>Lorem Ipsum, Historien d'art</i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade show" id="tabs-educationFill" role="tabpanel"
+                            aria-labelledby="tabs-home-tabFill">
+                            <div class="flex flex-col pl-3">
+                                <div class="flex flex-row  mb-2 space-x-1 text-sm text-left">
+                                    <p class="leading-relaxed w-1/4">1994 - 1990</p>
+                                    <p class="leading-relaxed text-left w-3/4"><span class="font-bold">Academy of Fine
+                                            Arts</span></br><i>Brussels -
+                                            B</i></p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1  text-sm text-left">
+                                    <p class="leading-relaxed w-1/4">1990 - 1989</p>
+                                    <p class="leading-relaxed text-left w-3/4"><span class="font-bold">Saint Luc Art
+                                            School</span></br><i>Brussels -
+                                            B</i></p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                    <p class="leading-relaxed w-1/4">1989</p>
+                                    <p class="leading-relaxed text-left w-3/4"><span class="font-bold">A level in
+                                            Arts</span></br><i>Eupen - B</i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tabs-exhibitionsFill" role="tabpanel"
+                            aria-labelledby="tabs-profile-tabFill">
+                            <div class="flex flex-col pl-3">
+                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full w-1/4">2022</p>
+                                    <p class="leading-relaxed md:w-full md:text-left w-3/4"><span class="font-bold">We
+                                            Art XL</span></br><i>Brussels - B</i></p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full w-1/4">2020</p>
+                                    <p class="leading-relaxed md:w-full md:text-left w-3/4"><span class="font-bold">We
+                                            Art XL</span></br><i>Brussels - B</i></p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full w-1/4">2019</p>
+                                    <p class="leading-relaxed md:w-full md:text-left w-3/4"><span
+                                            class="font-bold">Steigenberger Wiltchers</span></br><i>Brussels - B</i></p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full w-1/4">2015</p>
+                                    <p class="leading-relaxed md:w-full md:text-left w-3/4"><span
+                                            class="font-bold">Gallery Arielle d'Hauterives</span></br><i>Brussels -
+                                            B</i></p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full w-1/4">2014</p>
+                                    <p class="leading-relaxed md:w-full md:text-left w-3/4"><span
+                                            class="font-bold">Chantiers Art House</span></br><i>Brussels - B</i></p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full w-1/4">2010</p>
+                                    <p class="leading-relaxed md:w-full md:text-left w-3/4"><span
+                                            class="font-bold">Gallery Otero</span></br><i>Saint Paul de Vence - F</i>
+                                    </p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full w-1/4">2008</p>
+                                    <p class="leading-relaxed md:w-full md:text-left w-3/4"><span
+                                            class="font-bold">Palace of fine arts</span></br><i>Brussels - B</i></p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full w-1/4">2006</p>
+                                    <p class="leading-relaxed md:w-full md:text-left w-3/4"><span
+                                            class="font-bold">KunstTour - Stichting ART2Connect</span></br><i>Maastricht
+                                            - NL</i></p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full w-1/4">2005</p>
+                                    <p class="leading-relaxed md:w-full md:text-left w-3/4"><span
+                                            class="font-bold">START</span></br><i>Straßburg - F</i></p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full w-1/4">2004</p>
+                                    <p class="leading-relaxed md:w-full md:text-left w-3/4"><span
+                                            class="font-bold">Gallery Chiefs & Spirits</span></br><i>Den Haag - NL</i>
+                                    </p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full w-1/4">2004</p>
+                                    <p class="leading-relaxed md:w-full md:text-left w-3/4"><span
+                                            class="font-bold">LINEART</span></br><i>Gent - B</i></p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full w-1/4">2002</p>
+                                    <p class="leading-relaxed md:w-full md:text-left w-3/4"><span
+                                            class="font-bold">Museum of Contemporary Art Ludwig
+                                            Forum</span></br><i>Aachen - D</i></p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full w-1/4">2002</p>
+                                    <p class="leading-relaxed md:w-full md:text-left w-3/4"><span
+                                            class="font-bold">Gallery Prince de Condé</span></br><i>Spa - B</i></p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full w-1/4">2000</p>
+                                    <p class="leading-relaxed md:w-full md:text-left w-3/4"><span
+                                            class="font-bold">Center for Contemporary Art of
+                                            Belgian</span></br><i>Luxembourg - L</i></p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full w-1/4">1999</p>
+                                    <p class="leading-relaxed md:w-full md:text-left w-3/4"><span
+                                            class="font-bold">IKOB</span></br><i>Eupen - B</i></p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full w-1/4">1999</p>
+                                    <p class="leading-relaxed md:w-full md:text-left w-3/4"><span
+                                            class="font-bold">Gallery Accento</span></br><i>Brussels - B</i></p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full w-1/4">1994</p>
+                                    <p class="leading-relaxed md:w-full md:text-left w-3/4"><span
+                                            class="font-bold">Gallery Helga Maria Theissen</span></br><i>Aachen - D</i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tabs-messagesFill" role="tabpanel"
+                            aria-labelledby="tabs-profile-tabFill">
+                            <div class="flex flex-col pl-3">
+                                <div class="flex flex-row mb-2 space-x-1 md:space-x-10 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full md:text-left ml-5"><span
+                                            class="font-bold">Collection Benoot Gallery</span><i></br>Belgium - B</i>
+                                    </p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1 md:space-x-10 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full md:text-left ml-5"><span
+                                            class="font-bold">Collection John Cluysenaar</span><i></br>Belgium - B</i>
+                                    </p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1 md:space-x-10 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full md:text-left ml-5"><span
+                                            class="font-bold">Collection German speaking Community</span><i></br>Belgium
+                                            - B</i></p>
+                                </div>
+                                <div class="flex flex-row mb-2 space-x-1 md:space-x-10 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full md:text-left ml-5"><span
+                                            class="font-bold">Private Collections Aachen and
+                                            Düsseldorf</span><i></br>Deutscheland - D</i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tabs-privateCollectionsFill" role="tabpanel"
+                            aria-labelledby="tabs-profile-tabFill">
+                            <div class="flex flex-col pl-3">
+                                <div class="flex flex-row mb-2 space-x-1 md:space-x-10 text-sm text-left">
+                                    <p class="leading-relaxed md:w-full md:text-left ml-5"><span
+                                            class="font-bold">Private Collections</span><i></br>Brussels and Gent -
+                                            B</i></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
                 <!-- Social Icon-->
                 <div
                     class="mt-6 pb-16 lg:pb-0 w-3/4 lg:w-full mx-auto flex flex-wrap items-center justify-center space-x-4 md:justify-center opacity-75">
@@ -525,8 +681,10 @@
             data-action="like" data-show-faces="true" data-share="true"></div>
     </div>
 
-    <p class="text-center text-xs w-full bottom-2 md:bottom-10 mb-5">Copyright © 2022 <a href="https://www.sandrakeutgens.com/"class="border-b-2 hover:border-b-gray-300 rounded">Sandra Keutgens</a> | Made by <a
-        href="https://www.linkedin.com/in/jonathan-petroons/" class="border-b-2 hover:border-b-gray-300 rounded">Jonathan Petroons</a></p>
+    <p class="text-center text-xs w-full bottom-2 md:bottom-10 mb-5">Copyright © 2022 <a
+            href="https://www.sandrakeutgens.com/" class="border-b-2 hover:border-b-gray-300 rounded">Sandra
+            Keutgens</a> | Made by <a href="https://www.linkedin.com/in/jonathan-petroons/"
+            class="border-b-2 hover:border-b-gray-300 rounded">Jonathan Petroons</a></p>
 
 
 
